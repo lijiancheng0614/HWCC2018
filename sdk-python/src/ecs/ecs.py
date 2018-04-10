@@ -5,7 +5,7 @@ import predictor
 
 
 def main():
-    print 'main function begin.'
+    # print 'main function begin.'
     if len(sys.argv) != 4:
         print 'parameter is incorrect!'
         print 'Usage: python esc.py ecsDataPath inputFilePath resultFilePath'
@@ -25,7 +25,7 @@ def main():
     else:
         predic_result.append("NA")
         write_result(predic_result, resultFilePath)
-    print 'main function end.'
+    # print 'main function end.'
 
 
 def write_result(array, outpuFilePath):
